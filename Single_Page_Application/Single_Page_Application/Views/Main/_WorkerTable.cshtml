@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Worker>
+
+    <table class="table table-bordered " id="workerTable">
+        <thead class="table-success ">
+            <tr>
+                <th>Picture</th>
+            <th>Worker Name</th>
+            <th>Phone</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Payrate</th>
+                <th>Total WorkingHours</th>
+                <th>Total Payment</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var p in Model)
+            {
+                <tr>
+                    <td style="width:50px"><img src="~/Pictures/@p.Picture" style="width:40px" class="img-thumbnail rounded-circle" /></td>
+                <td>@p.WorkerName</td>
+                <td>@p.Phone</td>
+                    <td>@p.StartDate</td>
+                    <td>@p.EndDate</td>
+                    <td>@p.Payrate</td>
+                    <td>@p.TotalWorkHour</td>
+                    <td>@p.TotalPayment</td>
+                    <td>
+                    <button type="button" class="btn btn-primary btn-sm rounded-circle edit" data-db-type="worker" data-db-action="edit" data-worker-id="@p.WorkerId" data-controller-action="EditWorker"><i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-circle del" data-db-type="worker" data-db-action="delete" data-worker-id="@p.WorkerId" data-controller-action="DeleteWorker"><i class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

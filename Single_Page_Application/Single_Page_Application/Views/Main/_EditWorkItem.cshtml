@@ -1,0 +1,21 @@
+﻿
+@model Work
+
+<div class="form-group row mb-1">
+
+    <label asp-for="WorkerId" class="col-form-label col-form-label-sm col-2"></label>
+    <div class="col-4">
+        <select asp-for="WorkerId" class="form-select" asp-items="@(new SelectList(ViewData["Workers"] as IEnumerable<Worker>, "WorkerId", "WorkerName"))">
+            <option value="" selected>Select one</option>
+        </select>
+        <span asp-validation-for="WorkerId" class="text-danger"></span>
+    </div>
+    <label asp-for="TotalWorker" class="col-form-label col-form-label-sm col-2"></label>
+    <div class="col-3">
+        <input type="number" min="1" asp-for="TotalWorker" class="form-control form-control-sm" >
+        <span asp-validation-for="TotalWorker" class="text-danger"></span>
+    </div>
+    <div class="col-1">
+        <button  type="button" class="btn btn-sm deloi-edit"><i class="bi bi-trash"></i></button>
+    </div>
+</div>

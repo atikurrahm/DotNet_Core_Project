@@ -1,0 +1,49 @@
+﻿@model IEnumerable<WorkArea>
+@{
+    int? id = (int?)ViewData["id"];
+    
+}
+<table class="table table-bordered " id="workAreaTable">
+    <thead class="table-success">
+        <tr>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.WorkAreaName)
+            </th>
+            <th>
+                Customer Name
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Skill)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.IsRunning)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="workarea_tr_@item.WorkAreaId" class="@(id.HasValue && id == item.WorkAreaId ? "bg-info": "")">
+                <td><button type="button" class="btn btn-sm select @(id.HasValue && id == item.WorkAreaId ? "disabled": "")" data-workarea-id="@item.WorkAreaId" >Select</button></td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WorkAreaName)
+                </td>
+                <td>
+                   @item.Customer?.CustomerName
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=> item.Skill)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=> item.IsRunning)
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary btn-sm rounded-circle edit" data-db-type="workarea" data-db-action="edit" data-workarea-id="@item.WorkAreaId" data-controller-action="EditWorkArea"><i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-circle del" data-db-type="workarea" data-db-action="delete" data-workarea-id="@item.WorkAreaId" data-controller-action="DeleteWorkArea"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

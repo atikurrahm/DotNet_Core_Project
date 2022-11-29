@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Single_Page_Application
+build_property.RootNamespace = Single_Page_Application
+build_property.ProjectDir = C:\Users\Lab-104-08\Desktop\1268952\Single_Page_Application\Single_Page_Application\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lab-104-08\Desktop\1268952\Single_Page_Application\Single_Page_Application
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_CreateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_CreateWork.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlV29yay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_CreateWorkArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlV29ya0FyZWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_CreateWorker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlV29ya2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_CreateWorkItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlV29ya0l0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_CustomerTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3VzdG9tZXJUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_EditCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_EditWork.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdFdvcmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_EditWorkArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdFdvcmtBcmVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_EditWorker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdFdvcmtlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_EditWorkItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdFdvcmtJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_WorkAreaTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfV29ya0FyZWFUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_WorkerTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfV29ya2VyVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Main/_WorkTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfV29ya1RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lab-104-08/Desktop/1268952/Single_Page_Application/Single_Page_Application/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

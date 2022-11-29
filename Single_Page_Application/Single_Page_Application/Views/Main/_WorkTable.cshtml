@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Work>
+
+<table class="table table-bordered " id="workTable">
+    <thead class="table-success">
+        <tr>
+            <th></th>
+            <th>
+                Worker Name
+            </th>
+            <th>
+                Phone
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                Payrate
+            </th>
+            <th>
+                Total WorkHours
+            </th>
+            <th>
+                Total Payment
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalWorker)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                <tr id="@($"work_tr_{@item.WorkAreaId}_{@item.WorkerId}")">
+                    <td>
+                        <img src="/Pictures/@item.Worker?.Picture" class="rounded-circle" style="width:40px" />
+                    </td>
+                    <td>
+                        @item.Worker?.WorkerName
+                    </td>
+                    <td>
+                        @item.Worker?.Phone
+                    </td>
+                    <td>
+                        @item.Worker?.StartDate
+                    </td>
+                    <td>
+                        @item.Worker?.EndDate
+                    </td>
+                    <td>
+                        @item.Worker?.Payrate
+                    </td>
+                    <td>
+                        @item.Worker?.TotalWorkHour
+                    </td>
+                    <td>
+                        @item.Worker?.TotalPayment
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.TotalWorker)
+                    </td>
+                    <td>
+                            <button type="button" class="btn btn-primary btn-sm rounded-circle edit" data-db-type="work" data-db-action="edit" data-workarea-id="@item.WorkAreaId" data-worker-id="@item.WorkerId" data-controller-action="EditWork"><i class="bi bi-pencil"></i></button>
+                            @*<button type="button" class="btn btn-danger btn-sm rounded-circle del" data-db-type="work" data-db-action="delete" data-workarea-id="@item.WorkAreaId" data-worker-id="@item.WorkerId" data-controller-action="DeleteWork"><i class="bi bi-trash"></i></button>*@
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

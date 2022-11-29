@@ -1,0 +1,33 @@
+﻿@model WorkArea
+
+<form id="f" name="f" data-db-type="workarea" data-db-action="edit" data-controller-action="EditWorkArea">
+    <input type="hidden" asp-for="WorkAreaId" />
+    
+
+    <div class="form-group row mb-1">
+        <label asp-for="WorkAreaName" class="col-form-label col-form-label-sm col-2"></label>
+        <div class="col-4">
+            <input type="text" asp-for="WorkAreaName" class="form-control form-control-sm">
+            <span asp-validation-for="WorkAreaName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="Skill" class="col-form-label col-form-label-sm col-2"></label>
+        <div class="col-4">
+            <input type="text" asp-for="Skill" class="form-control form-control-sm">
+
+            <span asp-validation-for="Skill" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="IsRunning" class="control-label col-2"></label>
+        <div class="col-10">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" asp-for="IsRunning" checked>
+            </div>
+            <span asp-validation-for="IsRunning" class="text-danger"></span>
+        </div>
+    </div>
+   
+</form>
+
